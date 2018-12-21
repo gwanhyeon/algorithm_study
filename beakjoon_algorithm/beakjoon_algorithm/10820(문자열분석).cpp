@@ -10,6 +10,9 @@
 #include <stdio.h>
 #include <string>
 #include <iostream>
+#include <algorithm>
+
+
 using namespace std;
 
 int main(void){
@@ -23,7 +26,7 @@ int main(void){
         // 3. 문자열 입력
         
         int num[4] ={0,};
-        
+    
         for(char c : str){
             if(c >= 'a' && c <= 'z'){
                 num[0] += 1;
