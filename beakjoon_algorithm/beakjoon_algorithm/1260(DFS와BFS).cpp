@@ -81,7 +81,7 @@ void bfs(int v_num)
     // 정점 1로 check
     check[v_num] = 1;
     
-    // queue 비어있지않을때 동안 계속해서
+    // queue 비어있지않을때 동안 계속해서 반복문을 돌려준다.
     while (!q.empty()) {
         
         int num = q.front();        // queue맨앞에 있는값 num저장
@@ -103,11 +103,11 @@ void bfs(int v_num)
 
 int main()
 {
-    int e, v;       // e=간선의 개수, v=탐색할 정점의 번호
+    int e, v;       // e=간선의 개수, v=탐색을 시작 할 정점의 번호
     int x,y;  // 정점 입력
     scanf("%d %d %d",&n,&e,&v);
     //cin >> n >> e >> v;     // 정점의 개수 , 간선의 개수, 탐색할 정점의 번호
-    
+
     // 모든 간선 1로 초기화 시키기
     for (int i = 0; i < e; i++) {
         scanf("%d %d",&x,&y);
