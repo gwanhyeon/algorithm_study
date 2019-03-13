@@ -74,9 +74,10 @@ int main(void){
     for(int i=0; i<n; i++){
         cin >> str[i];
     }
-    
+    // 정렬해서 비교 해주고
     sort(str,str+n,compare);
     
+    // string 중복 처리
     for(int i=0; i<n; i++){
         if(str[i] == str[i-1] && i > 0 ){
             continue;

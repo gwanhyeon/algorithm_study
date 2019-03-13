@@ -57,6 +57,7 @@ void dfs(int v_num)           // num 탐색할 정점의 번호
 {
     printf("%d ",v_num);
     //cout << v_num;
+    
     // 정점의 개수까지 반복문
     for (int i = 1; i <= n; i++)    {
         // 간선상태 확인(갈수있는경우) && 방문하지 않은경우
@@ -97,7 +98,6 @@ void bfs(int v_num)
             }
         }
     }
-    
     printf("\n");
 }
 
