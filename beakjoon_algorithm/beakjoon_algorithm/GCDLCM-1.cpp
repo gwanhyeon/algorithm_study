@@ -17,9 +17,11 @@ int gcd(int a,int b){
     }else {
         return gcd(b,a%b);
     }
-    
 }
 
+// 24 16
+// 16 24%16 = 8
+// 8 0 => 0
 int main(void){
     int a,b;
     
@@ -28,6 +30,7 @@ int main(void){
     // 최대 공약수 GCD
     int g = gcd(a,b);
     cout << g << endl;
+    
     
     // 최소 공배수 LCM
     int l = g * (a/g) * (b/g);
