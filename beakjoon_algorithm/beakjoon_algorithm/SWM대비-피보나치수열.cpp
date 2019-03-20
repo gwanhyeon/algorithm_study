@@ -14,7 +14,6 @@ int memo[1001];
 
 // 피보나치 전형적인 dp 문제이다. memorization 문제이므로 한번 시험보기 전에 한번더 보자!!!
 int fibonachi(int n){
-    
       // 1보다 작으면 n반환 !!!!!!
     if(n <= 1){
         return n;
@@ -24,7 +23,6 @@ int fibonachi(int n){
             return memo[n];
         }
         // 피보나치 수열 처리 해주기.!
-        
         memo[n] = fibonachi(n-1) + fibonachi(n-2);
         return memo[n];
     }
@@ -34,8 +32,5 @@ int main(void){
     
     int n = 5;
     cout << fibonachi(n);
-    
-    
-    
     return 0;
 }
