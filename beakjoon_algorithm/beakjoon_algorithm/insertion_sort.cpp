@@ -55,6 +55,8 @@ int main(void){
     int temp;
     int arr[5] = {4,6,1,2,5};
     int size = sizeof(arr) / sizeof(int);
+    
+    
     for(int i=0; i<size-1; i++){
         int j = i;
         while(arr[j] > arr[j+1]){
