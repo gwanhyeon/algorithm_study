@@ -15,7 +15,6 @@
 
 #include <stdio.h>
 int number = 8;
-
 int size;
 int sorted[8];
 int count=0;

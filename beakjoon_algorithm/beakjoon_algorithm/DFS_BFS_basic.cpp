@@ -31,15 +31,12 @@ void bfs(int v){
     queue<int> q;
     
     // check point init
-    
     for(int i=1; i<=n; i++){
         check[i] = 0;
     }
-    
     // 초기값 넣어주기
     q.push(v);
     check[v] = 1;
-    
     while(!q.empty()){
         int num = q.front();
         cout << num << " ";
@@ -65,7 +62,6 @@ int main(void){
         map[x][y] = 1;
         map[y][x] = 1;
     }
-    
     //시작하는 정점을 1로 초기화 시켜주기. 시작점 체크
     check[v] = 1;
     

@@ -14,6 +14,9 @@ int main(void){
     int number = 10;
     int arr[10] = {2,3,4,1,5,6,3,8,10,9};
 
+    //**********************
+    // number - 1확인 꼭하자 insertion정렬
+    //**********************
     for(i=0; i<number-1; i++){
         j = i;
         while(arr[j] > arr[j+1]){

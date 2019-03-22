@@ -27,6 +27,9 @@ void quick_sort(int *arr, int start, int end){
         while(arr[i] <= arr[pivot]){
             i++;
         }
+        //**********************
+        // quick 정렬 j > start 이조건 엄청 중요해!!!!!무조건 알고가 까먹을 수 있음.
+        //**********************
         while(arr[j] >= arr[pivot] && j > start){
             j--;
         }

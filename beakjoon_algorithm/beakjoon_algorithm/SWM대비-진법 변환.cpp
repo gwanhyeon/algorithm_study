@@ -21,6 +21,8 @@ int main(void){
     string str;   // ** string 선언 필수다!!!!!!!!!
     
     cin >> n >> b;
+    // r = number % b
+
     
     while(n > 0){
         int r = n % b;
@@ -29,6 +31,7 @@ int main(void){
             str += (char)(r-10+'A');
         }
         // 10이하일경우 그대로 문자열로만 변경
+        // '0'을 빼주면
         else{
             str += (char)(r+'0');
         }

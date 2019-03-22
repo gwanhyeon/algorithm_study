@@ -44,7 +44,6 @@ void merge(int arr[], int m, int middle, int n){
             k++;
         }
     }
-
     //3. 정렬된 배열로 삽입
     for(int t=m; t <=n; t++){
         arr[t] = sorted[t];
