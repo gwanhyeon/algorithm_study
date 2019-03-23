@@ -18,28 +18,6 @@ int number = 7;
 int c[7];
 vector<int> a[8];
 
-//vector<int> arr(5,0) 이렇게 쓰면 5개짜리 배열을 생성하고 초기값으로 0을 넣는다는 뜻입니다.
-void bfs(int start){
-    
-    queue<int> q; // 1. 큐 선언
-    q.push(start); // 2. 시작점을 큐에 넣어준다
-    c[start] = true; // 3. c배열에 방문 체크를 한다.
-    
-    while(!q.empty()){
-        int x = q.front();
-        q.pop();
-        cout << x;
-        
-        for(int i=0; i<a[x].size(); i++){
-            int y =a[x][i];
-            if(!c[y]){
-                q.push(y);
-                c[y] = true;
-            }
-        }
-    }
-    
-}
 
 int main(void){
     a[1].push_back(2);

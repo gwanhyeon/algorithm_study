@@ -19,6 +19,7 @@ int main(void){
     
     for(int i=2; i*i <=n; i++){
         while(n % i == 0){
+            // 소인수 분해 값 출력 하는것.
             cout << i << "\n";
             n /= i;
         }

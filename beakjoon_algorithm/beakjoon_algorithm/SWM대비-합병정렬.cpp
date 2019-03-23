@@ -1,70 +1,72 @@
 //
-//  SWM대비-합병정렬.cpp
+//  merge_sort.cpp
 //  beakjoon_algorithm
 //
-//  Created by kgh on 21/03/2019.
+//  Created by kgh on 04/03/2019.
 //  Copyright © 2019 kgh. All rights reserved.
 //
 
-
-// 분할정복법 , 퀵정렬과 시간복잡도 O(N * logN)
-
-// 병합정렬은 최악의 경우에도 O(N*logN)
-
-// 2개의 메소드 merge, mergesort
-
 #include <stdio.h>
-int number = 8;
-int size;
-int sorted[8];
-int count=0;
 
-void merge(int *a, int m, int middle, int n){
+int number = 8;
+int sorted[8];
+
+void merge(int arr[], int m, int middle, int n){
+    
     int i = m;
     int j = middle + 1;
     int k = m;
     
+    // 1. 작은 순서대로 배열에 삽입
     while(i <= middle && j <= n){
-        if(a[i] <= a[j]){
-            sorted[k] = a[i];
+        // i 보다 j가 작을경우 값이 제대로 확인된것이므로 sorted 함수에 값을 넣어준다
+        if(arr[i] <= arr[j]){
+            sorted[k] = arr[i];
             i++;
-        }else{
-            sorted[k] = a[j];
+        }else {
+            sorted[k] = arr[j];
             j++;
         }
         k++;
     }
-    
+    // 2. 남은 데이터 삽입
+    // i가 먼저 끝났을경우
     if(i > middle){
         for(int t=j; t <= n; t++){
-            sorted[k] = a[t];
+            sorted[k] = arr[t];
             k++;
         }
-    }else{
-        for(int t = i; t<= middle; t++){
-            sorted[k] = a[t];
+    }
+    // j가 먼저 끝났을 경우
+    else {
+        for(int t=i; t<= middle; t++){
+            sorted[k] = arr[t];
             k++;
         }
+    }
+    //3. 정렬된 배열로 삽입
+    for(int t=m; t <=n; t++){
+        arr[t] = sorted[t];
     }
     
-    for(int t = m; t <= n; i++){
-        a[t] = sorted[t];
-    }
 }
 
-void mergeSort(int *a, int m, int n){
+void mergeSort(int arr[], int m, int n){
     if(m < n){
-        int middle = (m + n) / 2;
-        mergeSort(a, m, middle);
-        mergeSort(a, middle + 1, n);
-        merge(a, m, middle, n);
+        int middle = (m+n) / 2;
+        mergeSort(arr,m,middle);
+        mergeSort(arr,middle+1,n);
+        merge(arr,m,middle,n);
     }
 }
 
-int main(void) {
-    int arr[number] = {7, 6, 5, 8, 3, 5, 9, 1};
+int main(void){
     
+    int arr[8] = {7,6,5,8,3,5,9,1};
+    mergeSort(arr,0 , number-1);
     
-    
-    
+    for(int i=0; i<8; i++){
+        printf("%d ",arr[i]);
+        
+    }
 }

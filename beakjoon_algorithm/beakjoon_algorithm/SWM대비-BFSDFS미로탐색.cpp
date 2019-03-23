@@ -15,9 +15,7 @@ int checkmap(int a,int b){
     
 }
 
-int bfs(){
-    int cur_r = 0;
-    int cur_c = 0;
+int bfs(int cur_r,int cur_c){
     queue<pair<int,int>> q;
     q.push(pair<int,int>(cur_c,cur_r));
     check[cur_r][cur_c] = 1;
@@ -32,7 +30,7 @@ int bfs(){
         }
     
         for(int i=0; i<4; i++){
-            int next_r = cur_r + dir[i][0];ㅋ
+            int next_r = cur_r + dir[i][0];
             int next_c = cur_c + dir[i][1];
             if(checkmap(next_r,next_c) && check[next_r][next_c] ==0 && map[next_r][next_c]){
                 
@@ -58,7 +56,7 @@ int main(void){
             }
         }
     }
-    int result = bfs();
+    int result = bfs(0,0);
     
     cout << result;
 

@@ -32,6 +32,28 @@
 //출력 예시2
 //
 //4
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main(void){
+    int A,B,N;
+    // 하루에외우는것 까먹는것 총
+    int cnt=0;
+    cin >> A >> B >> C;
+    while(cnt != N){
+    cnt += (A - B)
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
 #include <stdio.h>
 #include <iostream>
 using namespace std;
