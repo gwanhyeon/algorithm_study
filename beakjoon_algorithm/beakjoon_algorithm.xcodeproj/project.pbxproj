@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D65EB80422544678008EB002 /* Unix_Programing_hw1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D65EB80322544678008EB002 /* Unix_Programing_hw1.cpp */; };
-		D6C4F9B7224940CF00CFD620 /* fibonachi(2747).cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6C4F9B6224940CF00CFD620 /* fibonachi(2747).cpp */; };
+		D64169A3225E193400790789 /* Adjacency-matrix2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64169A2225E193400790789 /* Adjacency-matrix2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +69,8 @@
 		D63D5AE72236CF940063F586 /* GCD-SUM.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "GCD-SUM.cpp"; sourceTree = "<group>"; };
 		D63D5AE92236D24E0063F586 /* BC(baseconversion).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BC(baseconversion).cpp"; sourceTree = "<group>"; };
 		D63D5AEB2237457C0063F586 /* test-file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "test-file.cpp"; sourceTree = "<group>"; };
+		D64169A0225E0F8200790789 /* Adjacency-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adjacency-matrix.cpp"; sourceTree = "<group>"; };
+		D64169A2225E193400790789 /* Adjacency-matrix2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adjacency-matrix2.cpp"; sourceTree = "<group>"; };
 		D648B7E022428A7800AB730D /* SWM대비-그리디알고리즘5(2217로프).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘5(2217로프).cpp"; sourceTree = "<group>"; };
 		D648B7E2224296CE00AB730D /* SWM대비-대소문자 변경.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-대소문자 변경.cpp"; sourceTree = "<group>"; };
 		D648B7E422429A6700AB730D /* SWM대비-10->n진법 변환.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-10->n진법 변환.cpp"; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		D648B7F822436E6A00AB730D /* SWM대비-vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-vector.cpp"; sourceTree = "<group>"; };
 		D648B7FA2243795100AB730D /* SWM대비-BFSDFS미로탐색.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-BFSDFS미로탐색.cpp"; sourceTree = "<group>"; };
 		D65EB80322544678008EB002 /* Unix_Programing_hw1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unix_Programing_hw1.cpp; sourceTree = "<group>"; };
+		D65EB8062255CB98008EB002 /* Unix_Programming_hw1_kgh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unix_Programming_hw1_kgh.cpp; sourceTree = "<group>"; };
 		D65F0B232229008D0009D839 /* bubble_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
 		D69534D52242841200CAC90A /* SWM대비-그리디알고리즘4(11399ATM).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘4(11399ATM).cpp"; sourceTree = "<group>"; };
 		D6AAB88B2244ABED00894B7B /* SWM대비-pair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-pair.cpp"; sourceTree = "<group>"; };
@@ -287,6 +289,9 @@
 				D6C4F9B42245480C00CFD620 /* 퀵소트 테스트.cpp */,
 				D6C4F9B6224940CF00CFD620 /* fibonachi(2747).cpp */,
 				D65EB80322544678008EB002 /* Unix_Programing_hw1.cpp */,
+				D65EB8062255CB98008EB002 /* Unix_Programming_hw1_kgh.cpp */,
+				D64169A0225E0F8200790789 /* Adjacency-matrix.cpp */,
+				D64169A2225E193400790789 /* Adjacency-matrix2.cpp */,
 			);
 			path = beakjoon_algorithm;
 			sourceTree = "<group>";
@@ -347,8 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65EB80422544678008EB002 /* Unix_Programing_hw1.cpp in Sources */,
-				D6C4F9B7224940CF00CFD620 /* fibonachi(2747).cpp in Sources */,
+				D64169A3225E193400790789 /* Adjacency-matrix2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

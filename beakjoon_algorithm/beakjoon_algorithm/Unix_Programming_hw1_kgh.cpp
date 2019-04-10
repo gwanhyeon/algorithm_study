@@ -1,3 +1,7 @@
+//
+//  Unix_Programming_hw1_kgh.cpp
+//  Created by kgh on 5/4/2019.
+//  Copyright © 2019 kgh. All rights reserved.
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
@@ -36,19 +40,7 @@ int New_Student_Create(Student *st,int cnt);
 // Grade_Show : 성적 출력 함수
 void Grade_Show(Student *st,int cnt);
 
-
-void Insertion_Show(Student *st, int cnt){
-    cout << "===============================================================================\n";
-cout << "======================데이터베이스 추가된 성적표======================================\n";
-    cout << "===============================================================================\n";
-    for(int i=0; i<cnt-1; i++){
-        cout << st[i].lastname <<" ";
-        cout << st[i].firstname <<" ";
-        cout << st[i].ssn << " ";
-        cout << st[i].avg << " \n";
-    }
-}
-//// ## 1. 함수선언 ##
+// ## 1. 함수구현 ##
 void Grade_Show(Student *st,int cnt){
     char str[10];       // 등수값을 받기위한 변수
     int num;            // 몇등인지 파악 하기 위한 변수
@@ -160,7 +152,7 @@ int New_Student_Create(Student *st,int cnt){
             //출력
             if(cnt == 0){
                 cout << "===============================================================================\n";
-                cout << "===================데이터베이스가 추가됩니다.==================================\n";
+                cout << "===================새로운 파일 데이터입니다.==================================\n";
                 cout << "===============================================================================\n";
                 cout << "lastName" << " ";
                 cout << "firstName" << " ";

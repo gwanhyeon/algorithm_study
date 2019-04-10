@@ -17,16 +17,13 @@ int fact(int n){
         return 1;
     }
     // 아닐경우에 n 부터 시작해서 fact(n-1) 까지 recursive 를 통해서 값을 계속 구해온다.
-    
     return n * fact(n-1);
-    
-    
 }
 int main(void){
     
     int n =5;
 //    cin >> n;
-    
+
     cout << fact(n);
     
     
