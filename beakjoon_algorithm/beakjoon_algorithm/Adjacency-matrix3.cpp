@@ -10,6 +10,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
+// 인접 리스트 구현 시간복잡도 O(E)
 int main(void){
     int n,m;
     vector<pair<int,int>> a[10];
@@ -31,8 +33,5 @@ int main(void){
         cin >> u >> v;
         a[u].push_back(make_pair(v,w));
         a[v].push_back(make_pair(u,w));
-        
     }
-    
-    
 }

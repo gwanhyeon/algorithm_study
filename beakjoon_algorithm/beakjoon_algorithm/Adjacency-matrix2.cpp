@@ -10,6 +10,8 @@
 #include <vector>
 #include <iostream>
 using namespace std;
+
+// 인접 리스트 구현 시간복잡도 O(E)
 int main(void){
     
     vector<int> a[10];

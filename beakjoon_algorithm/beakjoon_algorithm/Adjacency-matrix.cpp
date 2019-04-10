@@ -14,6 +14,7 @@ using namespace std;
 
 int a[10][10];
 
+// 인접 리스트 구현 시간복잡도 O(v^2)
 int main(void){
     int n,m;
     cin >> n >> m;
