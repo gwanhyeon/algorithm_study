@@ -65,9 +65,12 @@ int main(void){
     dfs(v);
     cout << "\n";
     
-    for(int i=1; i<=n; i++){
-        check[i] = 0;
-    }
+    // 이렇게 초기화 하는것보다
+    
+    memset(check, false, sizeof(check));
+//    for(int i=1; i<=n; i++){
+//        check[i] = 0;
+//    }
     bfs(v);
     return 0;
 }
