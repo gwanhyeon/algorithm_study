@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64169A6225E1BE200790789 /* Adjacency-matrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64169A4225E1A9C00790789 /* Adjacency-matrix3.cpp */; };
+		D64169AE225E36BD00790789 /* DFSBFS-Adj-matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64169AD225E36BD00790789 /* DFSBFS-Adj-matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +72,7 @@
 		D64169A0225E0F8200790789 /* Adjacency-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adjacency-matrix.cpp"; sourceTree = "<group>"; };
 		D64169A2225E193400790789 /* Adjacency-matrix2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adjacency-matrix2.cpp"; sourceTree = "<group>"; };
 		D64169A4225E1A9C00790789 /* Adjacency-matrix3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Adjacency-matrix3.cpp"; sourceTree = "<group>"; };
+		D64169AD225E36BD00790789 /* DFSBFS-Adj-matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFSBFS-Adj-matrix.cpp"; sourceTree = "<group>"; };
 		D648B7E022428A7800AB730D /* SWM대비-그리디알고리즘5(2217로프).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘5(2217로프).cpp"; sourceTree = "<group>"; };
 		D648B7E2224296CE00AB730D /* SWM대비-대소문자 변경.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-대소문자 변경.cpp"; sourceTree = "<group>"; };
 		D648B7E422429A6700AB730D /* SWM대비-10->n진법 변환.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-10->n진법 변환.cpp"; sourceTree = "<group>"; };
@@ -294,6 +295,7 @@
 				D64169A0225E0F8200790789 /* Adjacency-matrix.cpp */,
 				D64169A2225E193400790789 /* Adjacency-matrix2.cpp */,
 				D64169A4225E1A9C00790789 /* Adjacency-matrix3.cpp */,
+				D64169AD225E36BD00790789 /* DFSBFS-Adj-matrix.cpp */,
 			);
 			path = beakjoon_algorithm;
 			sourceTree = "<group>";
@@ -354,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64169A6225E1BE200790789 /* Adjacency-matrix3.cpp in Sources */,
+				D64169AE225E36BD00790789 /* DFSBFS-Adj-matrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

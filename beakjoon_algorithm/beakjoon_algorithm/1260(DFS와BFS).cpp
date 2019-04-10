@@ -52,6 +52,22 @@ int n;                      // 정점의 개수
 int check[1001];            // 방문 체크
 int map[1001][1001];        // 맵 체크(인접행렬)
 
+// 방문정점
+void dfs(int x){
+    
+    check[x] = true;
+    cout << check[x];
+    
+    //인접 리스트
+    for(int i=0; i<a[x].size(); i++){
+        int y = arr[x][i];
+        
+        if(check[i] == 0){
+            dfs(i);
+        }
+    }
+
+}
 // dfs 구현하기
 void dfs(int v_num)           // num 탐색할 정점의 번호
 {
