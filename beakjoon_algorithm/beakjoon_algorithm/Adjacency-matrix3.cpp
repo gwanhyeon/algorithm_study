@@ -23,7 +23,7 @@ int main(void){
                         // v-> 정점2
                         // w-> 가중치1
         // u값은 출발점 vertex1
-        // v값도 출발점 vectex2
+        // v값도 출발점 vertex2
         // w값은 weight
         
         //****실수 할 수 있음 *****
