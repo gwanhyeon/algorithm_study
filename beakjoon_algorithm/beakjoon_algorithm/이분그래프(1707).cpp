@@ -21,6 +21,7 @@ int check[20001];
 
 void dfs(int v,int c){
     check[v] = c;
+    cout << "1=>";
     for(int i=0; i<map[v].size(); i++){
         int next = map[v][i];
         // false값이면, dfs를 재수행하여 2번째 집단에 방문을 하면서 여부 확인.
