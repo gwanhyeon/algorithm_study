@@ -15,9 +15,14 @@ using namespace std;
 bool check[1001];
 vector<int> map[100];
 int n,m,v;  // 정점개수 , 간선 , 시작 정점 번호
+
+
 void dfs(int v){
+    // 첫번째 시작점을 true로 처리해준다.
     check[v] = true;
     cout << v << " ";
+    // 내 시작점에서 연결된 값들을 계속해서 진입한다.
+    // 진입하다가 빈부분으로 계속들어가게 된다 .그래서 recursive
     for(int i=0;i <map[v].size(); i++){
         int next = map[v][i];
         if(check[next] == false){
@@ -25,29 +30,33 @@ void dfs(int v){
         }
     }
 }
+
 void bfs(int v){
-    memset(check,false,sizeof(check));
+    // 시작점을 넣어준다.
     queue<int> q;
     check[v] = true;
     q.push(v);
     
     while(!q.empty()){
+        // 내 node와 연결된 간선들의 정점에 도달하기 위해
+        // 현재 내 노드의 값들을 queue에서 pop()을 시행해준다.
         int node = q.front();
         q.pop();
         cout << node<< " ";
-        
+        // 현재 map[node]에 값에 연결된 값들을 size()만큼 가져온다.
+        // // map[node]에 연결된 값들을 체크해주고 다시 푸쉬를 해준다.
         for(int i=0; i<map[node].size(); i++){
             int next = map[node][i];
-            if(check[next]== false){
+            // 다음의 연결된 값들을 모두 check처리하고 queue에 담아준다.
+            if(check[next] == false){
+                // dfs와 다르게 여기서 check point !
                 check[next] = true;
                 q.push(next);
             }
         }
-        
     }
-    
-    
 }
+
 
 int main(void){
     
