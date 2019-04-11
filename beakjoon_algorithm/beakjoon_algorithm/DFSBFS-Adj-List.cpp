@@ -47,6 +47,7 @@ void bfs(int v){
         // // map[node]에 연결된 값들을 체크해주고 다시 푸쉬를 해준다.
         for(int i=0; i<map[node].size(); i++){
             int next = map[node][i];
+            
             // 다음의 연결된 값들을 모두 check처리하고 queue에 담아준다.
             if(check[next] == false){
                 // dfs와 다르게 여기서 check point !

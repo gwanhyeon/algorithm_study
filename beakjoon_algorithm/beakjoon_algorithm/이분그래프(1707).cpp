@@ -40,8 +40,9 @@ int main(void){
         // 0 = 탐색 X 1= 1집단 탐색 O , 2= 2집단 탐색 O
         // 따라서 모든 값들 초기화!
         for(int i=1; i<=n; i++){
-            map[i].clear();
-            check[i] = 0;
+            map[i].clear();         // vector를 초기화 시킬떄는 clear() 메소드를 사용한다
+            check[i] = 0;           // check bool 초기화 시키기 위해서는 check[i]=0형식으로 사용한다.
+            
         }
         // 그래프에 간선을 연결해준다 G=(v,e);
         for(int i=0; i<m; i++){
@@ -58,19 +59,19 @@ int main(void){
             }
         }
         // 같은 집단에 있는 값들이
-        bool ok = true;
+        bool tf = true;
         for(int i=1; i<=n; i++){
             for(int k=0; k<map[i].size(); k++){
                 int j = map[i][k];
                 // 1 / 2 집단에서의 값이 같다는것은
                 // 결국엔 같은 집단끼리 이어진 값이 있다는것 ! 중요함!
                 if(check[i] == check[j]){
-                    ok = false;
+                    tf = false;
                 }
             }
         }
         
-        cout << (ok ? "YES" : "NO") <<"\n";
+        cout << (tf ? "YES" : "NO") <<"\n";
     }
     return 0;
 }
