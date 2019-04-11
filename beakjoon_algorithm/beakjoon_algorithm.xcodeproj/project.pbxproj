@@ -164,6 +164,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64169C1225FACAD00790789 /* dp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dp;
+			sourceTree = "<group>";
+		};
+		D64169C2225FACF100790789 /* dfs_bfs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dfs_bfs;
+			sourceTree = "<group>";
+		};
+		D64169C3225FACFE00790789 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
+		D64169C4225FADC300790789 /* hashing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hashing;
+			sourceTree = "<group>";
+		};
+		D64169C5225FADD800790789 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = graph;
+			sourceTree = "<group>";
+		};
+		D64169C6225FADE100790789 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
+		D64169C7225FAE0300790789 /* binary_search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = binary_search;
+			sourceTree = "<group>";
+		};
+		D64169C8225FAE4100790789 /* greedy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = greedy;
+			sourceTree = "<group>";
+		};
 		D6C1D43E21CACC86006DE761 = {
 			isa = PBXGroup;
 			children = (
@@ -183,8 +239,17 @@
 		D6C1D44921CACC86006DE761 /* beakjoon_algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D64169C8225FAE4100790789 /* greedy */,
+				D64169C7225FAE0300790789 /* binary_search */,
+				D64169C6225FADE100790789 /* tree */,
+				D64169C5225FADD800790789 /* graph */,
+				D64169C4225FADC300790789 /* hashing */,
+				D64169C3225FACFE00790789 /* sort */,
+				D64169C2225FACF100790789 /* dfs_bfs */,
+				D64169C1225FACAD00790789 /* dp */,
 				D6C1D46221CACCC4006DE761 /* 1012(유기농배추).cpp */,
 				D6C1D46121CACCC4006DE761 /* 1158(조세퍼스).cpp */,
+				D64169BE225F98EA00790789 /* fibonachi.cpp */,
 				D6C1D45321CACCC3006DE761 /* 1260(DFS-2).cpp */,
 				D6C1D46821CACCC5006DE761 /* 1260(DFS와BFS).cpp */,
 				D6C1D45D21CACCC4006DE761 /* 1406.cpp */,
@@ -309,7 +374,6 @@
 				D64169B8225F4C8F00790789 /* stl_vectoer_exam.cpp */,
 				D64169BA225F67CC00790789 /* 10451(순열사이클).cpp */,
 				D64169BC225F8B3700790789 /* 트리순회(1991번).cpp */,
-				D64169BE225F98EA00790789 /* fibonachi.cpp */,
 			);
 			path = beakjoon_algorithm;
 			sourceTree = "<group>";
