@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64169BF225F98EA00790789 /* fibonachi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D64169BE225F98EA00790789 /* fibonachi.cpp */; };
+		D629F609225FB73400A3BEBB /* 1로만들기-1463.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		D624D6082242713000ED5E68 /* SWM대비-그리디알고리즘1개념.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘1개념.cpp"; sourceTree = "<group>"; };
 		D624D60A224273A700ED5E68 /* SWM대비-그리디알고리즘2(5585거스름돈).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘2(5585거스름돈).cpp"; sourceTree = "<group>"; };
 		D624D60C224275E000ED5E68 /* SWM대비-그리디알고리즘3(11047동전0).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘3(11047동전0).cpp"; sourceTree = "<group>"; };
+		D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1로만들기-1463.cpp"; sourceTree = "<group>"; };
 		D62A788F222AC00D00F58792 /* greedy_algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy_algorithm.cpp; sourceTree = "<group>"; };
 		D62A7891222AC90D00F58792 /* selection_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selection_sort.cpp; sourceTree = "<group>"; };
 		D62A7893222AD8C900F58792 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
@@ -79,7 +80,7 @@
 		D64169B8225F4C8F00790789 /* stl_vectoer_exam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stl_vectoer_exam.cpp; sourceTree = "<group>"; };
 		D64169BA225F67CC00790789 /* 10451(순열사이클).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10451(순열사이클).cpp"; sourceTree = "<group>"; };
 		D64169BC225F8B3700790789 /* 트리순회(1991번).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "트리순회(1991번).cpp"; sourceTree = "<group>"; };
-		D64169BE225F98EA00790789 /* fibonachi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fibonachi.cpp; sourceTree = "<group>"; };
+		D64169BE225F98EA00790789 /* fibonachi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = fibonachi.cpp; path = dp/fibonachi.cpp; sourceTree = "<group>"; };
 		D648B7E022428A7800AB730D /* SWM대비-그리디알고리즘5(2217로프).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘5(2217로프).cpp"; sourceTree = "<group>"; };
 		D648B7E2224296CE00AB730D /* SWM대비-대소문자 변경.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-대소문자 변경.cpp"; sourceTree = "<group>"; };
 		D648B7E422429A6700AB730D /* SWM대비-10->n진법 변환.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-10->n진법 변환.cpp"; sourceTree = "<group>"; };
@@ -167,7 +168,7 @@
 		D64169C1225FACAD00790789 /* dp */ = {
 			isa = PBXGroup;
 			children = (
-				D64169BE225F98EA00790789 /* fibonachi.cpp */,
+				D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */,
 			);
 			path = dp;
 			sourceTree = "<group>";
@@ -240,6 +241,7 @@
 		D6C1D44921CACC86006DE761 /* beakjoon_algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D64169BE225F98EA00790789 /* fibonachi.cpp */,
 				D64169C1225FACAD00790789 /* dp */,
 				D64169C8225FAE4100790789 /* greedy */,
 				D64169C7225FAE0300790789 /* binary_search */,
@@ -435,7 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64169BF225F98EA00790789 /* fibonachi.cpp in Sources */,
+				D629F609225FB73400A3BEBB /* 1로만들기-1463.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
