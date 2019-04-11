@@ -239,6 +239,7 @@
 		D6C1D44921CACC86006DE761 /* beakjoon_algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D64169C1225FACAD00790789 /* dp */,
 				D64169C8225FAE4100790789 /* greedy */,
 				D64169C7225FAE0300790789 /* binary_search */,
 				D64169C6225FADE100790789 /* tree */,
@@ -246,7 +247,6 @@
 				D64169C4225FADC300790789 /* hashing */,
 				D64169C3225FACFE00790789 /* sort */,
 				D64169C2225FACF100790789 /* dfs_bfs */,
-				D64169C1225FACAD00790789 /* dp */,
 				D6C1D46221CACCC4006DE761 /* 1012(유기농배추).cpp */,
 				D6C1D46121CACCC4006DE761 /* 1158(조세퍼스).cpp */,
 				D64169BE225F98EA00790789 /* fibonachi.cpp */,
