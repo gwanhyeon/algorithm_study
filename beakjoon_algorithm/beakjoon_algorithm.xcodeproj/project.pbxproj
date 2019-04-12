@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D629F6132261022900A3BEBB /* 카드 구매하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629F6122261022900A3BEBB /* 카드 구매하기.cpp */; };
+		D629F61722610DDA00A3BEBB /* 쉬운계단수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629F61422610C5100A3BEBB /* 쉬운계단수.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +38,7 @@
 		D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2*n타일링2.cpp"; sourceTree = "<group>"; };
 		D629F6102260F32300A3BEBB /* 1,2,3 더하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1,2,3 더하기.cpp"; sourceTree = "<group>"; };
 		D629F6122261022900A3BEBB /* 카드 구매하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "카드 구매하기.cpp"; sourceTree = "<group>"; };
+		D629F61422610C5100A3BEBB /* 쉬운계단수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "쉬운계단수.cpp"; sourceTree = "<group>"; };
 		D62A788F222AC00D00F58792 /* greedy_algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy_algorithm.cpp; sourceTree = "<group>"; };
 		D62A7891222AC90D00F58792 /* selection_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selection_sort.cpp; sourceTree = "<group>"; };
 		D62A7893222AD8C900F58792 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
@@ -177,6 +178,7 @@
 				D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */,
 				D629F6102260F32300A3BEBB /* 1,2,3 더하기.cpp */,
 				D629F6122261022900A3BEBB /* 카드 구매하기.cpp */,
+				D629F61422610C5100A3BEBB /* 쉬운계단수.cpp */,
 			);
 			path = dp;
 			sourceTree = "<group>";
@@ -445,7 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D629F6132261022900A3BEBB /* 카드 구매하기.cpp in Sources */,
+				D629F61722610DDA00A3BEBB /* 쉬운계단수.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
