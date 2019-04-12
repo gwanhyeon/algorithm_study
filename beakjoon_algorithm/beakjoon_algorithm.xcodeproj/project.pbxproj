@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D629F60B2260C8AD00A3BEBB /* 2*n타일링.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629F60A2260C8AD00A3BEBB /* 2*n타일링.cpp */; };
+		D629F60F2260E7C800A3BEBB /* 2*n타일링2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,7 @@
 		D624D60C224275E000ED5E68 /* SWM대비-그리디알고리즘3(11047동전0).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-그리디알고리즘3(11047동전0).cpp"; sourceTree = "<group>"; };
 		D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1로만들기-1463.cpp"; sourceTree = "<group>"; };
 		D629F60A2260C8AD00A3BEBB /* 2*n타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2*n타일링.cpp"; sourceTree = "<group>"; };
+		D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2*n타일링2.cpp"; sourceTree = "<group>"; };
 		D62A788F222AC00D00F58792 /* greedy_algorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy_algorithm.cpp; sourceTree = "<group>"; };
 		D62A7891222AC90D00F58792 /* selection_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selection_sort.cpp; sourceTree = "<group>"; };
 		D62A7893222AD8C900F58792 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 			children = (
 				D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */,
 				D629F60A2260C8AD00A3BEBB /* 2*n타일링.cpp */,
+				D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */,
 			);
 			path = dp;
 			sourceTree = "<group>";
@@ -439,7 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D629F60B2260C8AD00A3BEBB /* 2*n타일링.cpp in Sources */,
+				D629F60F2260E7C800A3BEBB /* 2*n타일링2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

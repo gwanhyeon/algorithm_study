@@ -27,21 +27,25 @@ int recursive(int n){
     
     //N이 1일경우
     if(n == 1){
+        cout << "A " << dp[n];
         return 1;
     }
     //N이 2일경우 (1*2, 2*1)의 두가지 경우이므로
     if(n == 2){
+        cout << "B " << dp[n];
         return 2;
     }
     
     //이미 타일을 만들었던 경우의 수라면 기존값 리턴
     
     if(dp[n] > 0){
+        cout << "C " << dp[n];
         return dp[n];
     }
     
     // DP값에 10007을 나눈 나머지를 구하라고 하였죠.
     dp[n] = (recursive(n-1) + recursive(n-2)) % 10007 ;
+    cout << "D " <<  dp[n];
     return dp[n];
 
 }
