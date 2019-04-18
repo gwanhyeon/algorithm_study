@@ -47,7 +47,6 @@ int recursive(int n){
     dp[n] = (recursive(n-1) + recursive(n-2)) % 10007 ;
     cout << "D " <<  dp[n];
     return dp[n];
-
 }
 
 int main(void){

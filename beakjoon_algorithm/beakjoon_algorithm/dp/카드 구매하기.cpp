@@ -34,3 +34,11 @@ int main(void){
     
     return 0;
 }
+
+//
+//for(int i=0; i<A.size(); i++){
+//    for(int j=0; j<=i; j++){
+//        dp[i] = min(dp[i],dp[21-i+(7-j)]) + A[j];
+//        n = dp[i];
+//    }
+//}
