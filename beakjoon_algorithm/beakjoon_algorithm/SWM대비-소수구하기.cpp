@@ -42,7 +42,5 @@ int main(void){
     
     cout << cnt << '\n';
     
-    
-    
     return 0;
 }

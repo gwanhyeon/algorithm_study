@@ -1,17 +1,19 @@
 //  myShell.c
 //  유닉스 쉘 프로그래밍 Quiz - 2
-//  List of Unix my Shell Function
-//  $mv, cp, exit, clear
+//
 //  Created by kgh(Gwan Hyeon Kim) on 25/04/2019.
 //  1723401 김관현
 //  Copyright © 2019 kgh. All rights reserved.
-//
+//  github: https://github.com/kgh940525/unix_shell
 /*
  
-this is Program How does it work?
+1. List of Unix my Shell Function
+$mv, cp, exit, clear
+ 
+2. this is Program How does it work?
 $gcc -o "object $file name" myShell.c
 
-* $clear
+$clear
 $clear
 터미널의 명령행들 모두 clear
  

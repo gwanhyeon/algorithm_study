@@ -35,10 +35,6 @@ int main(void){
     cin >> n;
     int result = recursive(m,n);
     cout << result;
-    
-    
-    
-    
-    
+
     return 0;
 }
