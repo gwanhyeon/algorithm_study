@@ -5,6 +5,8 @@
 //  Created by kgh on 12/05/2019.
 //  Copyright © 2019 kgh. All rights reserved.
 //
+// 시작점으로의 거리를 잴때 사용한다.
+// 1만큼 더 떨어져있다는 성질이 성립되지 않는다.
 
 #include <stdio.h>
 #include <bits/stdc++.h>
