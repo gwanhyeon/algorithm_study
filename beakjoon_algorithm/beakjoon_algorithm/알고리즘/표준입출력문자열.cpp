@@ -20,6 +20,9 @@ int main(void){
     getline(cin,str);
     cout << str << "\n";
     const char* t = str.c_str();
+    // string = char[]=> 하나의 문자열을 나타낼 수 있다는것이죠.
+    // char => 한 문자만을 입력을 받아요. [] => 배열형태이면 문자열의 상태겠죠?
+    // 1byte = 8bit 
     printf("%s", t);
     
     
