@@ -8,20 +8,32 @@
 
 #include <stdio.h>
 #include <bits/stdc++.h>
+
 using namespace std;
 
-int recursive(int val){
+long long func1(long long a,long long b,long long c){
+    long long val = 1;
     
-    if(val == 1) {
-        return 0;
+    while(b--){
+        val = (val * a) % c;
     }
-    return val * recursive(val-1);
     
+    return val;
+}
+long long POW1(long long a, long long b, long long m){
+    long long val = pow(a,b/2);
+    val = val * val % m;
+    
+    if(b%2 == 0){
+        return val * val;
+    }
+    
+    return val * val * a % m;
 }
 
 int main(void){
-    cout << recursive(5);
-    
+    cout << func1(6,12,5);
+    cout << pow(2, 10);
     
     
     return 0;
