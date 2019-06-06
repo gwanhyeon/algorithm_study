@@ -21,12 +21,13 @@ int main(void){
     int n, m;
     cin >> n >> m;
 
-    // input
+    // input공백으로 받냐 못받냐에 차이에따라 string, int로 받는게 달라진다.
     for(int i=0; i<n; i++){
             cin >> Maze[i];
     }
     
     for(int i=0; i<n; i++){
+        
         fill(check[i], check[i]+m, -1);
     }
     queue<pair<int,int>> q;
