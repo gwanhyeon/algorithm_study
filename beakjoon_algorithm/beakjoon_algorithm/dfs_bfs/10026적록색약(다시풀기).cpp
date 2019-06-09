@@ -11,37 +11,35 @@
 
 #include <stdio.h>
 #include <bits/stdc++.h>
+#include <string>
 using namespace std;
 string Maze[101];
 int check[101][101];
 int dir[4][2] = {{-1,0}, {1,0}, {0,1}, {0,-1}};
 
 int main(void){
-          
+    
+    
+    
+    //#1 적록색약 정상인 경우
     // N * N
     int n;
     cin >>n;
     
-    // init
-    for(int i=0; i<n; i++){
-            cin >> Maze[i];
-    }
-    
+    // 맵 초기화
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
-            check[i][j] = 0;
+            cin >> Maze[i][j];
         }
     }
-    
     int num_ungreen = 0;        // 정상
     int num_ingreen = 0;        // 비정상
+    
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
-            
             queue<pair<int,int>> q;
             q.push({i,j});
-            check[i][j] = 0;
-          
+            check[i][j] = 1;
             while(!q.empty()){
                 num_ungreen++;
                 auto cur = q.front();
@@ -64,6 +62,7 @@ int main(void){
             }
         }
     }
+    //#2 비 정상인 경우
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             if(Maze[i][j] == 'R'){
@@ -71,17 +70,13 @@ int main(void){
             }
         }
     }
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            check[i][j] = 0;
-        }
-    }
+
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             
             queue<pair<int,int>> q;
             q.push({i,j});
-            check[i][j] = 0;
+            check[i][j] = 1;
             
             while(!q.empty()){
                 num_ingreen++;
@@ -106,13 +101,5 @@ int main(void){
     }
     
     cout << num_ungreen << ' ' << num_ingreen;
-    
-    
-    
-    
-
-          
-    
-    
     return 0;
 }
