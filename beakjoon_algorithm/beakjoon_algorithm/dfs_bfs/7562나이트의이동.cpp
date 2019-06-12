@@ -36,8 +36,8 @@ int main(void){
         // 3. 도착지 입력 Destination
         int dest_r, dest_c;
         cin >> dest_r >> dest_c;
-        Map[r][c] = 1;
-        Map[dest_r][dest_c] = 1;
+//        Map[r][c] = 1;
+//        Map[dest_r][dest_c] = 1;
         queue<pair<int,int>> q;
         check[r][c] = true;
         q.push({r,c});
