@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D60B14C722BCC78A008F045C /* n과 m(5).cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60B14C622BCC78A008F045C /* n과 m(5).cpp */; };
-		D62B19A722B50F8800821734 /* n과 m(4).cpp in Sources */ = {isa = PBXBuildFile; fileRef = D62B19A622B50F8800821734 /* n과 m(4).cpp */; };
-		D62B19AA22B7D9CC00821734 /* O-EXCL플래그.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D62B19A922B7D9CC00821734 /* O-EXCL플래그.cpp */; };
-		D62B19AC22B7DA2900821734 /* Newfile-open-close.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D62B19AB22B7DA2900821734 /* Newfile-open-close.cpp */; };
+		D6DA493022BE653C008E8EDB /* DFSBFS(1260).cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DA492F22BE653C008E8EDB /* DFSBFS(1260).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +197,7 @@
 		D6D9FF4622413962004F40C4 /* greedy_algorithm_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy_algorithm_2.cpp; sourceTree = "<group>"; };
 		D6D9FF4822413AA0004F40C4 /* greedy_algorithm_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = greedy_algorithm_3.cpp; sourceTree = "<group>"; };
 		D6D9FF4A22414036004F40C4 /* 11047(동전0).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11047(동전0).cpp"; sourceTree = "<group>"; };
+		D6DA492F22BE653C008E8EDB /* DFSBFS(1260).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFSBFS(1260).cpp"; sourceTree = "<group>"; };
 		D6FA49C2222EE0F4005F5EDB /* stack_queue_basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack_queue_basic.cpp; sourceTree = "<group>"; };
 		D6FA49C4222FCF0D005F5EDB /* String_tokenizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String_tokenizer.cpp; sourceTree = "<group>"; };
 		D6FA49C6222FDFEB005F5EDB /* DFS_BFS_basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFS_BFS_basic.cpp; sourceTree = "<group>"; };
@@ -272,6 +270,7 @@
 				D638C62622AD0ECD00248321 /* 7562나이트의이동.cpp */,
 				D638C62822AD2C4000248321 /* 2468안전영역.cpp */,
 				D666E56522B3BC7F001F1893 /* 7569토마토.cpp */,
+				D6DA492F22BE653C008E8EDB /* DFSBFS(1260).cpp */,
 			);
 			path = dfs_bfs;
 			sourceTree = "<group>";
@@ -597,10 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60B14C722BCC78A008F045C /* n과 m(5).cpp in Sources */,
-				D62B19A722B50F8800821734 /* n과 m(4).cpp in Sources */,
-				D62B19AC22B7DA2900821734 /* Newfile-open-close.cpp in Sources */,
-				D62B19AA22B7D9CC00821734 /* O-EXCL플래그.cpp in Sources */,
+				D6DA493022BE653C008E8EDB /* DFSBFS(1260).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

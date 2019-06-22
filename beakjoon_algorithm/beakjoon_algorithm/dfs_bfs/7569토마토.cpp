@@ -16,8 +16,6 @@ int main(void){
     int m,n,h;
     
     cin >> m >> n >> h;
-    
-    
 
     return 0;
 }
