@@ -11,8 +11,6 @@ using namespace std;
 int main(void){
     ios::sync_with_stdio(0);
     cin.tie(0);
-    
-    
     vector<int> v1(3,5);        // {5,5,5}
     cout << v1.size() <<'\n';   // {3}
     v1.push_back(7);            // {5,5,5,7}
@@ -22,27 +20,16 @@ int main(void){
         cout << v1[i];
     }
     cout << "\n";
-    
     vector<int> v2(2);          // {0,0}
     cout << v2.size() << '\n';  // {2}
     v2.insert(v2.begin()+1, 3);    // {0,3,0}
     
     vector<int> v3 = {1,2,3,4};     // {1,2,3,4}
     v3.erase(v3.begin()+2);         // {1,2,4}  3만 삭제
-    
     vector<int> v4;
     v4 = v3;
     
     cout << v4[0] << ' ' << v4[1] << ' ' << v4[2] << '\n';
     v4.pop_back();
     v4.clear();
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

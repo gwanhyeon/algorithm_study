@@ -63,35 +63,35 @@ int main(void){
     
     forward_list <int> f_list;
     auto iter = f_list.before_begin();
-
-    int n;
+    // 정방향 목록에서 첫 번째 요소 앞의 위치에 주소를 지정하는 이터레이터 반환합니다.
+    int n;  // 리스트를 구성 할 노드의 개수
     cin >> n;
-    int value;
-    int data;
+    
+    int data;   // 리스트에 넣을 값
     int position;
     
     for(int i=0; i<n; i++){
-        cin >> value;
-        iter = f_list.insert_after(iter,value);
+        cin >> data;
+        iter = f_list.insert_after(iter,data);
+            // 이터레이터 현재위치에서 data값 삽입
+            // 이터레이터의 position이 초기화되는 것이 아니다.
     }
     
-    cin >> data;
-    cin >> position;
-    iter = f_list.begin();
+    cin >> data;        // 삽입할 데이터 입력
+    cin >> position;    // 삽입 위치 입력
+
+    iter = f_list.begin(); // 리스트의 첫번째 이터레이터 위치 반환
     
+    // 해당 포지션까지 이터레이터 위치 변경
     for(int i=0; i<position-1; i++){
         *iter++;
     }
+    // 이터레이터 데이터 삽입
     iter = f_list.insert_after(iter,data);
     
+    // 모든 리스트를 순회하면서 출력하기
     for(iter = f_list.begin(); iter != f_list.end(); iter++){
-        cout << *iter <<
-        "\n";
+        cout << *iter <<"\n";
     }
-    
-    
-
-    
-    
     return 0;
 }
