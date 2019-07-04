@@ -8,12 +8,9 @@
 
 #include <bits/stdc++.h>
 #include <iostream>
-
 using namespace std;
 int A[3][301];
 int B[3][301];
-
-
 
 int main(void){
     int h,w,x,y;
@@ -34,9 +31,7 @@ int main(void){
             }
             // 이동한 A체크
             if(i+1 <= h+x && j+1 <= w+y){
-                
                 A[i+1-x][j+1-y] = B[i][j];
-            
             // 기존의 A체크 하나존재
             }else if(i < h+x && j < w+y){
                 A[i+1-x][j+1-y] = B[i][j];

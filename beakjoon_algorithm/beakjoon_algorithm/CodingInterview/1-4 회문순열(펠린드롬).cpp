@@ -4,12 +4,13 @@
 //
 //  Created by kgh on 03/07/2019.
 //  Copyright © 2019 kgh. All rights reserved.
-//
+//# 풀이 reverse , compare # bitvector
 
 #include <stdio.h>
 #include <iostream>
 #include <string>
 using namespace std;
+
 
 int main(void){
     string str = "HHHHHH";
@@ -31,11 +32,6 @@ int main(void){
     }else{
         cout << "순열이며 펠린드롬이 아닙니다" <<flag;
     }
-    
-
-    
-    
-    
     return 0;
 }
 

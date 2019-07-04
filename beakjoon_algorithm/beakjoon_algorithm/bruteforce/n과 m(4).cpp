@@ -12,7 +12,6 @@ using namespace std;
 int arr[10];
 bool check[10];
 void recursive(int index,int start,int n,int m){
-    
     if(index == m){
         for(int i=0; i<m; i++){
             cout << arr[i];
@@ -23,16 +22,12 @@ void recursive(int index,int start,int n,int m){
         cout <<'\n';
         return;
     }
-    
-    
     for(int i=start; i<=n; i++){
-        
         arr[index] = i;
         check[index] = true;
         // i면 중복 허용 , i+1이면 중복허용 X
         recursive(index+1,i,n,m);
-        check[index] = false;
-        
+        check[index] = false; 
     }
 }
 

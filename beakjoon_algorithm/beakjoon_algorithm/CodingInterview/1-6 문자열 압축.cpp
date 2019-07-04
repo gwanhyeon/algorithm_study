@@ -12,26 +12,25 @@
 using namespace std;
 int main(void){
     string str = "aabccccaaa";
-    string str_copy;
+    string str_cpy;
     int cnt = 0;
-    char store=NULL;
+    
     for(int i=0; i<str.size(); i++){
-        
-        for(int j=i+1; j<str.size(); j++){
-            if(str[i] == str[j]){
-                store = str[i];
-                cnt++;
-            }else{
-                str_copy += (store+cnt);
-                cnt =0;
-            }
+        // 맨처음들어 올 때 처리해주기, else로 처리하면 a값이 처리안된다.
+        cnt++;
+        if(str[i] != str[i+1]){
+            str_cpy += (str[i] + to_string(cnt));
+            cnt = 0;
         }
     }
-    if(str.size() < str_copy.size()){
+    if(str.size() < str_cpy.size()){
         cout << str;
     }else{
-        cout << str_copy;
+        cout << str_cpy;
     }
+    
+    
+    
     
 }
 
