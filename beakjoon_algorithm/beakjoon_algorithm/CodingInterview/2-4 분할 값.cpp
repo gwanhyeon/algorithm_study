@@ -13,49 +13,76 @@ typedef struct NODE{
     int data;
     struct NODE* next;
 }node;
-void front_insert_node(NODE** head,NODE** tail, int data){
-    NODE* curr = (NODE*)malloc(sizeof(node));
-    curr->data = data;
-    curr->next = NULL;
-    
-    
-    
-}
 
-void back_insert_node(NODE** head,NODE** tail,int data){
-    // New Node
-    NODE* curr = (NODE*)malloc(sizeof(node));
-    curr->data = data;
-    curr->next = NULL;
+typedef struct LIST{
+    node *head;
+    node *tail;
+    node *cur;
+    int num;
+}List;
+
+void insertNode(LIST* llist,int data){
+    // 새로운 노드 생성
+    node *newNode = (node *)malloc(sizeof(node));
+    newNode->data = data;
+    newNode->next = NULL;
     
-    if((*head) == NULL){
-        (*head) = curr;
-        (*tail) = curr;
+    if(llist->head == NULL && llist->tail == NULL){
+        llist->head = newNode;
+        llist->tail = newNode;
     }else{
-        (*tail)->next = curr;
-        (*tail) = curr;
-        
+        llist->tail->next = newNode;
+        llist->tail= newNode;
     }
 }
-void print_node(NODE* head){
+void deleteNode(LIST* llist){
+    node *p = llist->head;
+    // 마지막지점까지 이동한다음
+    while(p->next->next != NULL){
+        p = p->next;
+    }
+    // 그점에 있는 지점에서 그전 테일까지 이동하여 p값을 list값으로 이용한다.
+    p->next = p->next->next;
+    llist->tail = p;
+}
+void printNodes(LIST* llist){
+    node *curr = llist->head;
     
-    NODE* curr = head;
     while(curr != NULL){
-        cout << curr->data << ' ';
-        curr = curr->next;
+        cout << curr->data;
+         curr = curr->next;
+    }
+    
+}
+/* 일단 보류 */
+LIST* partition(LIST* node, int x){
+    LIST* head = node;
+    LIST* tail = node;
+    
+    while((node != NULL)){
+        LIST* next = node->next;
     }
     
 }
 int main(void){
-    NODE* head = (NODE*)malloc(sizeof(node));
-    NODE* tail = (NODE*)malloc(sizeof(node));
+    LIST* llist = (List*)malloc(sizeof(List));
+    llist->cur = NULL;
+    llist->head = NULL;
+    llist->tail = NULL;
     
-    head->next = NULL;
-    tail->next = NULL;
+    insertNode(llist,3);
+    insertNode(llist,5);
+    insertNode(llist,8);
+    insertNode(llist,5);
+    insertNode(llist,10);
+    insertNode(llist,2);
+    insertNode(llist,1);
+    llist = partition(llist,5);
+    printNodes(llist);
     
-    back_insert_node(&head,&tail,3);
-    back_insert_node(&head,&tail,5);
-    back_insert_node(&head,&tail,7);
-    print_node(head);
-    return 0;
+    
+    
+    
+    
+
 }
