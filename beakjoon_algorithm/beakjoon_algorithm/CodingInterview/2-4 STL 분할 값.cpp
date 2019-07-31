@@ -74,22 +74,7 @@ void printLinkedList() {
     
     printf("\n");
 }
-void divisionBasedOnX(linked_list& list, int x) {
-    node *pre = list.first();
-    node *crr = list.first()->next;
-    
-    while (crr != NULL) {
-        if (crr->data < x) {
-            pre->next = crr->next;
-            list.addFirst(crr);
-            crr = pre->next;
-        }
-        else {
-            pre = crr;
-            crr = crr->next;
-        }
-    }
-}
+
 int main(void){
     
     return 0;
