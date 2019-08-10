@@ -13,13 +13,8 @@ using namespace std;
 char str[111];
 int main(){
     
-    
-    
-    
     while(scanf("%[^\n]\n",str) == 1){
-        
         printf("%s\n",str);
-    
     }
     
     return 0;
