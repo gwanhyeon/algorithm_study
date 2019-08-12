@@ -99,5 +99,37 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/Lecture_beakjoon_Excercise/14889&#x1109;&#x1173;&#x1110;&#x1161;&#x1110;&#x1173;&#x110b;&#x116a; &#x1105;&#x1175;&#x11bc;&#x110f;&#x1173;.cpp"
+            timestampString = "587322296.790031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "go(int index, vector&lt;int&gt; first, vector&lt;int&gt; second)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/Lecture_beakjoon_Excercise/14889&#x1109;&#x1173;&#x1110;&#x1161;&#x1110;&#x1173;&#x110b;&#x116a; &#x1105;&#x1175;&#x11bc;&#x110f;&#x1173;.cpp"
+            timestampString = "587322296.790135"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "go(int index, vector&lt;int&gt; first, vector&lt;int&gt; second)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
