@@ -41,13 +41,14 @@ int main(void){
     
     cin >> r >> c;
     vector<string> board(r);
-    vector<bool> check(26);
+    vector<bool> check(26); // 알파벳 개수가 26개(대문자)
     
     for(int i=0; i<r; i++){
             cin >> board[i];
     }
-    cout << board[0][0] -'A';
+  
     check[board[0][0] -'A'] = true; // 맨처음 말을 시작점으로 바꾸기 위해 true로 변경한다.
+    // 대문자를 정수형처럼 체크하기 위해서 
     cout << go(board,check,0,0) << '\n';
     
     
@@ -56,8 +57,9 @@ int main(void){
 
 /* 내 풀이와 차이점 */
 /*
-#include <stdio.h>
-#include <iostream>
+ 2 4
+ CAAB
+ ADCB#include <iostream>
 #include <string>
 using namespace std;
 // * 문자 배열 입력받기 ** 중요함..
