@@ -15,7 +15,7 @@ int map[25][25];
 int check[25][25];
 int n;
 int dir[4][2] ={{0,1},{1,0},{-1,0},{0,-1}};
-int ans = 0;
+int ans[25*25];
 
 void bfs(int x,int y,int cnt){
     queue<pair<int,int>> q;
@@ -34,7 +34,6 @@ void bfs(int x,int y,int cnt){
                 if(check[a][b] == 0 && map[a][b] == 1){
                     check[a][b] = cnt;
                     q.push({a,b});
-                    ans += 1;
                 }
             }
         }
@@ -43,10 +42,8 @@ void bfs(int x,int y,int cnt){
 
 int main(void){
     cin >> n;
-    
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
-//            cin >> map[i][j];
             scanf("%1d",&map[i][j]);
         }
     }
@@ -54,11 +51,22 @@ int main(void){
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             if(map[i][j] == 1 && check[i][j] == 0){
-                bfs(i,j,cnt++);
-                cout << ans << '\n';
-                ans = 0;
+                bfs(i,j,++cnt);
             }
         }
     }
+    cout << cnt << '\n';
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            ans[check[i][j]] += 1;
+        }
+    }
+    sort(ans+1, ans+cnt+1);
+    
+    for(int i=1; i<=cnt; i++){
+        cout << ans[i] << '\n';
+    }
+    
+
     return 0;
 }
