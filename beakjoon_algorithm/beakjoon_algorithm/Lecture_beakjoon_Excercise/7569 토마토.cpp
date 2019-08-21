@@ -15,30 +15,41 @@ int map[201][201][201];
 int check[201][201][201];
 int dir[6][3] = {{0,1,0},{0,-1,0},{0,0,-1},{0,0,1},{1,0,0},{-1,0,0}};
 int m,n,h;
-
-void bfs(int x,int y,int h){
+int cnt = 0;
+int ans[201*201*201];
+void bfs(int x,int y,int h1){
     
     queue<pair<int,int>> q_xy;
     queue<int> q_h;
-    check[x][y][h] = true;
+    check[h1][x][y] = 1;
+    map[h1][x][y] = 1;
     q_xy.push({x,y});
-    q_h.push(h);
+    q_h.push(h1);
     
     while(!q_xy.empty() && !q_h.empty()){
-        
+        int dx = x + q_xy.front().first;
+        int dy = y + q_xy.front().second;
+        int dh = h1 + q_h.front();
+        q_xy.pop();
+        q_h.pop();
+        for(int i=0; i<6; i++){
+            int mh = dh + dir[i][0];
+            int mx = dx + dir[i][1];
+            int my = dy + dir[i][2];
+            if(mx >= 0 && mx < n && my >= 0 && my < m && mh >= 0 && mh < h){
+                if(check[mh][mx][my] == 0 && map[mh][mx][my] == 0 && map[dh][dx][dy] == 1){
+                    map[mh][mx][my] = 1;
+                    check[mh][mx][my] = map[dh][dx][dy] + 1;
+                    q_xy.push({mx,my});
+                    q_h.push(mh);
+                }
+            }
+        }
     }
-    
-    
-    
-    
-    
-    
 }
-
 int main(void){
     
     cin >> m >> n >> h;
-    
     for(int k=0; k<h; k++){
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
@@ -46,18 +57,18 @@ int main(void){
             }
         }
     }
-    
     for(int k=0; k<h; k++){
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
-                bfs(1,1,1);
+                if(check[k][i][j] == 0 && map[k][i][j] == 1){
+                    bfs(i,j,k);
+                    cnt+=1;
+                }
             }
         }
     }
-    
-    
-    
-    
+
+    cout << cnt;
     return 0;
 }
 
