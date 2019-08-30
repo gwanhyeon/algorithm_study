@@ -39,8 +39,6 @@ void bfs(){
             }
         }
     }
-    
-
 }
 
 int main(void){

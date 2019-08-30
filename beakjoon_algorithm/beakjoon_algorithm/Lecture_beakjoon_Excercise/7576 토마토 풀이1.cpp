@@ -51,6 +51,7 @@ int main(void){
             }
         }
     }
+    bfs();
     
  
     int ans =0;
