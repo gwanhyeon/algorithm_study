@@ -5,6 +5,7 @@
 //  Created by kgh on 30/08/2019.
 //  Copyright © 2019 kgh. All rights reserved.
 //
+// https://programmers.co.kr/learn/courses/30/lessons/1829
 
 #include <vector>
 #include <stdio.h>
