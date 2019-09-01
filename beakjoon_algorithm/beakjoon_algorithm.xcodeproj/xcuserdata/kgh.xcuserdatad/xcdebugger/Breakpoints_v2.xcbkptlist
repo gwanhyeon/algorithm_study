@@ -179,5 +179,21 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/KakaoCodingTest/&#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1103;&#x1161;&#x1110;&#x1173;&#x1100;&#x1166;&#x110b;&#x1175;&#x11b7;X.cpp"
+            timestampString = "589041052.011204"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
