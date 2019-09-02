@@ -186,11 +186,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "beakjoon_algorithm/KakaoCodingTest/&#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1103;&#x1161;&#x1110;&#x1173;&#x1100;&#x1166;&#x110b;&#x1175;&#x11b7;X.cpp"
-            timestampString = "589041052.011204"
+            timestampString = "589123337.9631701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
+            landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/KakaoCodingTest/&#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1175;&#x1106;&#x1175;&#x11af;&#x110c;&#x1175;&#x1103;&#x1169;O.cpp"
+            timestampString = "589123337.9633321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "solution(int n, vector&lt;int&gt; arr1, vector&lt;int&gt; arr2)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/CodingTestExam/11005(&#x110c;&#x1175;&#x11ab;&#x1107;&#x1165;&#x11b8;&#x1107;&#x1167;&#x11ab;&#x1112;&#x116a;&#x11ab;2).cpp"
+            timestampString = "589114004.310285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/CodingTestExam/11005(&#x110c;&#x1175;&#x11ab;&#x1107;&#x1165;&#x11b8;&#x1107;&#x1167;&#x11ab;&#x1112;&#x116a;&#x11ab;2).cpp"
+            timestampString = "589114004.310968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/CodingTestExam/11005(&#x110c;&#x1175;&#x11ab;&#x1107;&#x1165;&#x11b8;&#x1107;&#x1167;&#x11ab;&#x1112;&#x116a;&#x11ab;2).cpp"
+            timestampString = "589114004.3114409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "main(void)"
             landmarkType = "9">
          </BreakpointContent>

@@ -25,6 +25,7 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
             }else if(arr1[i] % 2 == 0){
                 ans[i] += " ";
             }
+
             arr1[i] >>= 1;
         }
         reverse(ans[i].begin(), ans[i].end());
