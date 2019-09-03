@@ -14,26 +14,46 @@
 
 using namespace std;
 int main(void){
-    string str1 = "E=M*C^2";
+    string str1 = "FRANCE";
     string str2 = "french";
     
     vector<string> A;
     vector<string> B;
-    
-    int element_intersection;
-    int element_union;
+
     // 모든 str1,str2원소를 대문자로 변경한다.
-    transform(str1.begin(),str1.end(),::toupper);
-    transform(str2.begin(),str2.end(),::toupper);
+    transform(str1.begin(),str1.end(), str1.begin(), ::tolower);
+    transform(str2.begin(),str2.end(), str2.begin(), ::tolower);
+
+    for(int i=1; i<str1.size(); i++){
+        if(isalpha(str1[i-1]) && isalpha(str1[i])){
+            A.push_back(str1.substr(i-1,2));
+        }
+    }
+    for(int i=1; i<str2.size(); i++){
+        if(isalpha(str2[i-1]) && isalpha(str2[i])){
+            B.push_back(str2.substr(i-1,2));
+        }
+    }
+    double inner_size = 0.0;
+    double union_size = A.size() + B.size();;
+    for(int i=0; i<A.size(); i++){
+        vector<string>::iterator it = find(B.begin(),B.end(),A[i]);
+        //찾았으면.
+        if(it != B.end()){
+            inner_size +=1;
+            B.erase(it);
+        }
+    }
     
+    if(A.empty() && B.empty()){
+        return 65536;
+    }
     
+    union_size = (union_size - inner_size);
+    double result = (inner_size / union_size);
+    result = result *65536;;
     
-    
-    
-    
-    
-    
-    
+    cout << (int) result;
     
 //    int in = 0;
 //    int all = 0;
