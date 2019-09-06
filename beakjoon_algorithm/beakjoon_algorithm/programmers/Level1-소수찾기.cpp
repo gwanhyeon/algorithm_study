@@ -11,22 +11,42 @@
 #include <vector>
 
 using namespace std;
+//bool prime(int n){
+//
+//    if(n < 2){
+//        return false;
+//    }
+//
+//    for(int i=2; i*i<=n; i++){
+//        if(n % i == 0){
+//            return false;
+//        }
+//    }
+//    return true;
+//}
+
 int main(void){
-    
-    bool check[1000001] = {false,};
+    int check[101];
+    int prime[101];
     int n = 10;
-    int sum = 0;
+    int cnt = 0;
+    check[0] = check[1] = true;
     for(int i=2; i<=n; i++){
-        if(!check[i]){
-            sum++;
-        }
-        for(int j=i; j<=n; j+=i){
-            cout << "j : " << j;
-            check[j] = true;
+        if(check[i] == false){
+            for(int j=i*i; j<=n; j+=i){
+                    check[j] = true;
+            }
+            
         }
     }
-    
-    cout << sum;
+    for(int i=2; i<=n; i++){
+        if(check[i] == false){
+            cnt += 1;
+        }
+
+    }
+        cout << cnt;
+
     return 0;
 }
 

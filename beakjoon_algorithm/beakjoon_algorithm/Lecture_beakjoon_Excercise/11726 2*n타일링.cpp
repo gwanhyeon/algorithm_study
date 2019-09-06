@@ -23,7 +23,7 @@ int recursive(int n){
     if(dp[n] > 0 ){
         return dp[n];
     }
-    dp[n] = (recursive(n-1) + recursive(n-2)) % 10007;
+    dp[n] = (recursive(n-1) + recursive(n-2));
     return dp[n];
 }
 int main(void){

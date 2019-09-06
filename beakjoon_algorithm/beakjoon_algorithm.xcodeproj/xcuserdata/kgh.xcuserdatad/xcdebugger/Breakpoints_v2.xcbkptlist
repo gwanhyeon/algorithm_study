@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "beakjoon_algorithm/KakaoCodingTest/&#x110f;&#x1161;&#x110f;&#x1161;&#x110b;&#x1169; &#x1107;&#x1175;&#x1106;&#x1175;&#x11af;&#x110c;&#x1175;&#x1103;&#x1169;O.cpp"
-            timestampString = "589147667.2630481"
+            timestampString = "589323008.370186"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -240,6 +240,38 @@
             startingLineNumber = "21"
             endingLineNumber = "21"
             landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/KakaoCodingTest/1157 &#x1103;&#x1161;&#x11ab;&#x110b;&#x1165; &#x1100;&#x1169;&#x11bc;&#x1107;&#x116e; &#x1106;&#x116e;&#x11ab;&#x110c;&#x1161;&#x110b;&#x1167;&#x11af;.cpp"
+            timestampString = "589323008.37037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/Lecture_beakjoon_Excercise/11726 2*n&#x1110;&#x1161;&#x110b;&#x1175;&#x11af;&#x1105;&#x1175;&#x11bc;.cpp"
+            timestampString = "589380753.391912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "recursive(int n)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

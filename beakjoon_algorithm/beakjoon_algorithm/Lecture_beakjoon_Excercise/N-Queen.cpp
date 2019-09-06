@@ -28,7 +28,6 @@ bool check(int row,int col){
         return false;
     }
     return true;
-    
 }
 
 // 행을 체크하는 경우임
