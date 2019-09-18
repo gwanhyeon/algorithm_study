@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D626F4F7232833710068C0E4 /* 10974모든순열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D626F4F6232833710068C0E4 /* 10974모든순열.cpp */; };
+		D6A880F2233272F000532A0F /* 10819 차이를 최대로.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6A880F1233272F000532A0F /* 10819 차이를 최대로.cpp */; };
+		D6A880F423329C5E00532A0F /* 10971 외원판순회 2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6A880F323329C5E00532A0F /* 10971 외원판순회 2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,7 @@
 		D626F4F2232826510068C0E4 /* 10972번 다음순열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10972번 다음순열.cpp"; sourceTree = "<group>"; };
 		D626F4F423282E020068C0E4 /* 10973번 이전순열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10973번 이전순열.cpp"; sourceTree = "<group>"; };
 		D626F4F6232833710068C0E4 /* 10974모든순열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10974모든순열.cpp"; sourceTree = "<group>"; };
+		D626F4F8232A0A050068C0E4 /* 13913 숨바꼭질 4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13913 숨바꼭질 4.cpp"; sourceTree = "<group>"; };
 		D629F608225FB73400A3BEBB /* 1로만들기-1463.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1로만들기-1463.cpp"; sourceTree = "<group>"; };
 		D629F60A2260C8AD00A3BEBB /* 2*n타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2*n타일링.cpp"; sourceTree = "<group>"; };
 		D629F60C2260E09600A3BEBB /* 2*n타일링2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2*n타일링2.cpp"; sourceTree = "<group>"; };
@@ -281,6 +283,8 @@
 		D69AD7E72305CB9100BF19C8 /* 1062 가르침(비트마스크).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1062 가르침(비트마스크).cpp"; sourceTree = "<group>"; };
 		D69AD7E92306989400BF19C8 /* 13460 구슬탈출2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "13460 구슬탈출2.cpp"; sourceTree = "<group>"; };
 		D69E507922C6E019001D33BD /* 단지번호붙이기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "단지번호붙이기.cpp"; sourceTree = "<group>"; };
+		D6A880F1233272F000532A0F /* 10819 차이를 최대로.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10819 차이를 최대로.cpp"; sourceTree = "<group>"; };
+		D6A880F323329C5E00532A0F /* 10971 외원판순회 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10971 외원판순회 2.cpp"; sourceTree = "<group>"; };
 		D6AAB88B2244ABED00894B7B /* SWM대비-pair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-pair.cpp"; sourceTree = "<group>"; };
 		D6AAB88D2244B2BE00894B7B /* SWM대비-계수정렬.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-계수정렬.cpp"; sourceTree = "<group>"; };
 		D6AAB88F2244BA8D00894B7B /* SWM대비-string-sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "SWM대비-string-sort.cpp"; sourceTree = "<group>"; };
@@ -668,6 +672,7 @@
 				D626F4F2232826510068C0E4 /* 10972번 다음순열.cpp */,
 				D626F4F423282E020068C0E4 /* 10973번 이전순열.cpp */,
 				D626F4F6232833710068C0E4 /* 10974모든순열.cpp */,
+				D626F4F8232A0A050068C0E4 /* 13913 숨바꼭질 4.cpp */,
 			);
 			path = Lecture_beakjoon_Excercise;
 			sourceTree = "<group>";
@@ -712,13 +717,6 @@
 			path = dfs_bfs;
 			sourceTree = "<group>";
 		};
-		D64169C3225FACFE00790789 /* sort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = sort;
-			sourceTree = "<group>";
-		};
 		D64169C4225FADC300790789 /* hashing */ = {
 			isa = PBXGroup;
 			children = (
@@ -737,20 +735,6 @@
 				D626F4F023258CF00068C0E4 /* star_05.cpp */,
 			);
 			path = star;
-			sourceTree = "<group>";
-		};
-		D64169C6225FADE100790789 /* tree */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = tree;
-			sourceTree = "<group>";
-		};
-		D64169C7225FAE0300790789 /* binary_search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = binary_search;
 			sourceTree = "<group>";
 		};
 		D64169C8225FAE4100790789 /* greedy */ = {
@@ -797,6 +781,16 @@
 				D626F4D52323C3590068C0E4 /* 문자열 연습.cpp */,
 			);
 			path = KakaoCodingTest;
+			sourceTree = "<group>";
+		};
+		D6A880F0233271AB00532A0F /* #19-2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A880F1233272F000532A0F /* 10819 차이를 최대로.cpp */,
+				D6A880F323329C5E00532A0F /* 10971 외원판순회 2.cpp */,
+			);
+			name = "#19-2";
+			path = "브루트포스";
 			sourceTree = "<group>";
 		};
 		D6BD4BEC22858F3900BE9637 /* 삼성역량대비문제 */ = {
@@ -868,6 +862,7 @@
 		D6C1D44921CACC86006DE761 /* beakjoon_algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D6A880F0233271AB00532A0F /* #19-2 */,
 				D65B41FC231962590098E5B8 /* KakaoCodingTest */,
 				D63615A322F751DB004F4985 /* kingdog */,
 				D63615A022F73EA0004F4985 /* Lecture_beakjoon_Excercise */,
@@ -885,11 +880,8 @@
 				D64CE92D2272E51800E3E43C /* homework */,
 				D64169C1225FACAD00790789 /* dp */,
 				D64169C8225FAE4100790789 /* greedy */,
-				D64169C7225FAE0300790789 /* binary_search */,
-				D64169C6225FADE100790789 /* tree */,
 				D64169C5225FADD800790789 /* star */,
 				D64169C4225FADC300790789 /* hashing */,
-				D64169C3225FACFE00790789 /* sort */,
 				D64169C2225FACF100790789 /* dfs_bfs */,
 			);
 			path = beakjoon_algorithm;
@@ -992,7 +984,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D626F4F7232833710068C0E4 /* 10974모든순열.cpp in Sources */,
+				D6A880F2233272F000532A0F /* 10819 차이를 최대로.cpp in Sources */,
+				D6A880F423329C5E00532A0F /* 10971 외원판순회 2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
