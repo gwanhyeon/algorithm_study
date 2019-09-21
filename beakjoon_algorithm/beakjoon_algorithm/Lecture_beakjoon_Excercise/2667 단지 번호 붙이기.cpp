@@ -21,7 +21,7 @@ void bfs(int x,int y,int cnt){
     queue<pair<int,int>> q;
     check[x][y] = cnt;
     q.push({x,y});
-    
+
     while(!q.empty()){
         int dx = q.front().first;
         int dy = q.front().second;
