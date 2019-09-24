@@ -26,7 +26,7 @@ int main(void){
     do{
         int ans =0;
         for(int i=1; i<n; i++){
-            ans += abs(v[i-1] - v[i]);
+            ans += v[i];
         }
         result.push_back(ans);
     }while(next_permutation(v.begin(),v.end()));

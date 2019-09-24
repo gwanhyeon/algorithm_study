@@ -16,7 +16,6 @@
 #include <algorithm>
 using namespace std;
 int main(void){
-    
     while(true){
         int n;
         cin >> n;
@@ -39,7 +38,6 @@ int main(void){
             check.push_back(1);
         }
         vector<vector<int>> ans(n);
-        
         do{
             vector<int> s;
             for(int i=0; i<v.size(); i++){
@@ -58,7 +56,6 @@ int main(void){
             cout << '\n';
         }
         cout <<'\n';
-        
     }
     
     

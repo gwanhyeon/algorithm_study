@@ -19,6 +19,8 @@ int main(void){
     string item;
     vector<string> result;
     while(getline(ss,item,' ')){
+        
+        
         result.push_back(item);
     }
     for(int i=0; i<result.size(); i++){
