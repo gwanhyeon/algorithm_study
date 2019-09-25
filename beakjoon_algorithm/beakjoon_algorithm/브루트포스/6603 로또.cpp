@@ -28,7 +28,7 @@ int main(void){
             }
         }
         sort(v.begin(), v.end());
-        vector<int> check(n);
+        vector<int> check;
         // 6개 아닌경우
         for(int i=0; i<n-6; i++){
             check.push_back(0);

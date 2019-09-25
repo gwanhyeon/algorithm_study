@@ -393,13 +393,173 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/10819 &#x110e;&#x1161;&#x110b;&#x1175;&#x1105;&#x1173;&#x11af; &#x110e;&#x116c;&#x1103;&#x1162;&#x1105;&#x1169;.cpp"
-            timestampString = "590835568.1635441"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/6603 &#x1105;&#x1169;&#x1104;&#x1169;.cpp"
+            timestampString = "591114300.2993211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
             landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/6603 &#x1105;&#x1169;&#x1104;&#x1169;.cpp"
+            timestampString = "591114300.299445"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "main(void)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.2995501"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.299657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.299752"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.299848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.299943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/1759 &#x110b;&#x1161;&#x11b7;&#x1112;&#x1169;&#x1106;&#x1161;&#x11ab;&#x1103;&#x1173;&#x11af;&#x1100;&#x1175;.cpp"
+            timestampString = "591114300.30004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "recursive(string password,vector&lt;char&gt; &amp;v, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/6603 &#x1105;&#x1169;&#x1104;&#x1169; &#x110c;&#x1162;&#x1100;&#x1171;.cpp"
+            timestampString = "591114300.300137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "recursive(vector&lt;int&gt; &amp;v, int index, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/6603 &#x1105;&#x1169;&#x1104;&#x1169; &#x110c;&#x1162;&#x1100;&#x1171;.cpp"
+            timestampString = "591114300.3002729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "recursive(vector&lt;int&gt; &amp;v, int index, int cnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "beakjoon_algorithm/&#x1107;&#x1173;&#x1105;&#x116e;&#x1110;&#x1173;&#x1111;&#x1169;&#x1109;&#x1173;/6603 &#x1105;&#x1169;&#x1104;&#x1169; &#x110c;&#x1162;&#x1100;&#x1171;.cpp"
+            timestampString = "591114300.30037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "recursive(vector&lt;int&gt; &amp;v, int index, int cnt)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

@@ -13,6 +13,9 @@
 #include <iostream>
 using namespace std;
 
+10S
+arr[i]*10 + arr[i+1]
+
 
 int main(void){
     string dartResult = "1D2S3T*";

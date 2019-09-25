@@ -47,6 +47,7 @@ int main(void){
     do{
         bool check = true;
         int sum = 0;
+        // 1 2 3
         for(int i=0; i<n-1; i++){
             if(arr[v[i]][v[i+1]] == 0){
                 check = false;
@@ -54,6 +55,8 @@ int main(void){
                 sum += arr[v[i]][v[i+1]];
             }
         }
+        // 다시 되돌아 오는경우 자기 자신으로 1 2 3 1 로 돌아오는경우다 예를들면
+        
         if(check && arr[v[n-1]][v[0]] != 0){
             sum += arr[v[n-1]][v[0]];
             if(ans > sum){
