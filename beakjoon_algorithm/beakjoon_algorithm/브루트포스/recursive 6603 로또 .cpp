@@ -43,8 +43,6 @@ void recursive(vector<int> &v, int index, int cnt){
     lotto.pop_back();
     recursive(v, index+1, cnt);
     
-    
-    
 }
 int main(void){
     

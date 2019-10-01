@@ -34,7 +34,7 @@ void recursive(int sum, int time){
         return;
     }
     recursive(sum, time+1);
-    recursive(sum+p[time],time +t[time]);
+    recursive(sum+p[time],time+t[time]);
 
 }
 
@@ -42,7 +42,7 @@ int main(void){
     
     cin >> n;
     
-    for(int i=0; i<n; i++){
+    for(int i=1; i<=n; i++){
         cin >> t[i];
         cin >> p[i];
         
