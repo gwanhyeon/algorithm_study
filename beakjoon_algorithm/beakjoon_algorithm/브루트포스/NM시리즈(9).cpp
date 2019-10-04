@@ -22,7 +22,6 @@ set<string> s;
 // 순열
 void go(int cnt){
     if(cnt == m){
-        
         // 중복체크
         bool tf = false;
         string str;
