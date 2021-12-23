@@ -1,4 +1,4 @@
-# Potato Dev. 알고리즘 코딩 테스트 대비 PS(Problem & Solve)
+Problem & Solve
 
 
 ## 1. 알고리즘 목표 
