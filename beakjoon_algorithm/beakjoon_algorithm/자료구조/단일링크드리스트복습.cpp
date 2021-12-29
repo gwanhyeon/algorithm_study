@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <iostream>
 using namespace std;
-
 // structure created
 typedef struct Node{
     int data;
