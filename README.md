@@ -1,4 +1,4 @@
-Problem & Solve C++
+problems & Solved in C++
 
 ## 알고리즘 초급
 ```
